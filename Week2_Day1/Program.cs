@@ -75,15 +75,51 @@ namespace Week2_Day1
             //string[] strArray = { "This", "is", "an", "array", "of", "words", "because", "I", "like", "words"};
 
             //Console.WriteLine("This is the last index " + (strArray.Length -1));
-            //Console.WriteLine(strArray[strArray.Length-2]);
+            ////Console.WriteLine(strArray[strArray.Length-2]);
 
-            int arraySize = int.Parse(Console.ReadLine());
-            int[] newArray = new int[arraySize];
+            //Console.WriteLine("Please enter the size of your array.");
+            //int arraySize = int.Parse(Console.ReadLine());
+            //int[] newArray = new int[arraySize];
 
-            Console.WriteLine("The array is of length " + newArray.Length);
-            
-                
-                
+            //Console.WriteLine("The array is of length " + newArray.Length);
+
+            //string[] birthMonths = { "October", "July", "October", "May" };
+            //Console.WriteLine(Array.IndexOf(birthMonths, "October"));
+
+            //int[] numbers = { 2, 5, 9, 4, 3, 4, 6, 5 };
+            //Console.WriteLine(Array.LastIndexOf(numbers, 4));
+
+            //Array.Reverse(numbers);
+
+            //Console.WriteLine(numbers[0]);
+
+            //Array.Sort(numbers);
+            //Console.WriteLine(numbers[0]);
+            //Console.WriteLine(numbers[numbers.Length - 1]);    
+            /* The console writelines will show the first and last numbers in the sorted array
+             * to prove that it was put in numerical order */
+
+
+
+            string[] firstNames = { "Monica", "Raz", "Kaitie", "Nick", "JD" };
+            Console.WriteLine(Array.IndexOf(firstNames, "Monica"));
+
+            int[] luckyNumbers = { 7, 5, 17, 8, 7, 4, 17, 5, 8 };
+            Console.WriteLine(Array.LastIndexOf(luckyNumbers, 5));
+
+            char[] abCs = { 'a', 'b', 'c','d', 'e', 'f' };
+            Console.WriteLine(abCs[0]);
+
+            Array.Reverse(abCs);
+            Console.WriteLine(abCs[0]);
+
+
+            string[] studentNames = { "Monica", "Rashida", "Ali", "Kaitie", "Dan", "Brian" };
+            Array.Sort(studentNames);
+            Console.WriteLine(studentNames[0]);
+
+
+
                 
                 
                 
