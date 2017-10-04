@@ -101,22 +101,25 @@ namespace Week2_Day1
 
 
 
-            string[] firstNames = { "Monica", "Raz", "Kaitie", "Nick", "JD" };
-            Console.WriteLine(Array.IndexOf(firstNames, "Monica"));
+            //string[] firstNames = { "Monica", "Raz", "Kaitie", "Nick", "JD" };
+            //Console.WriteLine(Array.IndexOf(firstNames, "Monica"));
 
-            int[] luckyNumbers = { 7, 5, 17, 8, 7, 4, 17, 5, 8 };
-            Console.WriteLine(Array.LastIndexOf(luckyNumbers, 5));
+            //int[] luckyNumbers = { 7, 5, 17, 8, 7, 4, 17, 5, 8 };
+            //Console.WriteLine(Array.LastIndexOf(luckyNumbers, 5));
 
-            char[] abCs = { 'a', 'b', 'c','d', 'e', 'f' };
-            Console.WriteLine(abCs[0]);
+            //char[] abCs = { 'a', 'b', 'c','d', 'e', 'f' };
+            //Console.WriteLine(abCs[0]);
 
-            Array.Reverse(abCs);
-            Console.WriteLine(abCs[0]);
+            /
+            /Array.Reverse(abCs);
+            //Console.WriteLine(abCs[0]);
 
 
-            string[] studentNames = { "Monica", "Rashida", "Ali", "Kaitie", "Dan", "Brian" };
-            Array.Sort(studentNames);
-            Console.WriteLine(studentNames[0]);
+            //string[] studentNames = { "Monica", "Rashida", "Ali", "Kaitie", "Dan", "Brian" };
+            //Array.Sort(studentNames);
+            //Console.WriteLine(studentNames[0]);
+
+
 
 
 
